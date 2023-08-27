@@ -1,0 +1,880 @@
+.page {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.page .all {
+  width: 45%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 {
+  width: 35%;
+  height: 100vh;
+  background-color: #6e6e6e;
+}
+.page .part1 .about_me {
+  width: 100%;
+  height: 28vh;
+  background-color: #6e6e6e;
+}
+.page .part1 .about_me .for_photo {
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page .part1 .about_me .for_photo .photo {
+  width: 32%;
+  height: 10vh;
+  background-color: white;
+  border-radius: 50%;
+  background-image: url(../images/photo_5303499332080750792_y.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+}
+.page .part1 .about_me .name {
+  width: 100%;
+  height: 9.2vh;
+}
+.page .part1 .about_me .name H1 {
+  color: #2d2d2d;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.2;
+}
+.page .part1 .about_me .my_skills {
+  width: 100%;
+  height: 6vh;
+}
+.page .part1 .about_me .my_skills p {
+  color: #2d2d2d;
+  font-size: 11.5px;
+  text-align: center;
+}
+.page .part1 .for_contact {
+  width: 100%;
+  height: 22vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page .part1 .for_contact .contact {
+  width: 88%;
+  height: 4vh;
+  border-bottom: 3px solid white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_contact .contact .section1 {
+  width: 16%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d2d2d;
+  font-size: 20px;
+}
+.page .part1 .for_contact .contact .section2 {
+  width: 84%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+}
+.page .part1 .for_contact .contact .section2 h1 {
+  font-size: 17px;
+  margin-left: 4%;
+  color: white;
+}
+.page .part1 .for_contact .phone {
+  width: 88%;
+  height: 4vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_contact .phone .section1 {
+  width: 16%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+.page .part1 .for_contact .phone .section2 {
+  width: 84%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.page .part1 .for_contact .phone .section2 .block1 {
+  width: 100%;
+  height: 2vh;
+}
+.page .part1 .for_contact .phone .section2 .block1 p {
+  font-size: 11px;
+  color: #2d2d2d;
+  margin-left: 4%;
+}
+.page .part1 .for_contact .phone .section2 .block2 {
+  width: 100%;
+  height: 2vh;
+}
+.page .part1 .for_contact .phone .section2 .block2 h1 {
+  font-size: 12px;
+  color: white;
+  margin-left: 4%;
+}
+.page .part1 .for_contact .email {
+  width: 88%;
+  height: 4vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_contact .email .section1 {
+  width: 16%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+.page .part1 .for_contact .email .section2 {
+  width: 84%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.page .part1 .for_contact .email .section2 .block1 {
+  width: 100%;
+  height: 2vh;
+}
+.page .part1 .for_contact .email .section2 .block1 p {
+  font-size: 11px;
+  color: #2d2d2d;
+  margin-left: 4%;
+}
+.page .part1 .for_contact .email .section2 .block2 {
+  width: 100%;
+  height: 2vh;
+}
+.page .part1 .for_contact .email .section2 .block2 p {
+  font-size: 12px;
+  color: white;
+  margin-left: 4%;
+}
+.page .part1 .for_skills {
+  width: 100%;
+  height: 31vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page .part1 .for_skills .skills {
+  width: 88%;
+  height: 4vh;
+  border-bottom: 3px solid white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_skills .skills .section1 {
+  width: 16%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d2d2d;
+  font-size: 22px;
+}
+.page .part1 .for_skills .skills .section2 {
+  width: 84%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+}
+.page .part1 .for_skills .skills .section2 h1 {
+  font-size: 17px;
+  margin-left: 4%;
+  color: white;
+}
+.page .part1 .for_skills .html {
+  width: 88%;
+  height: 3vh;
+  margin-top: 8px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_skills .html .block1 {
+  width: 32%;
+  height: 3vh;
+}
+.page .part1 .for_skills .html .block2 {
+  width: 70%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_skills .html .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_skills .html .block2 .for_rating .rating {
+  width: 95%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_skills .flex {
+  width: 88%;
+  height: 3vh;
+  margin-top: 3px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_skills .flex .block1 {
+  width: 32%;
+  height: 3vh;
+}
+.page .part1 .for_skills .flex .block2 {
+  width: 70%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_skills .flex .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_skills .flex .block2 .for_rating .rating {
+  width: 95%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_skills .sass {
+  width: 88%;
+  height: 3vh;
+  margin-top: 3px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_skills .sass .block1 {
+  width: 32%;
+  height: 3vh;
+}
+.page .part1 .for_skills .sass .block2 {
+  width: 70%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_skills .sass .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_skills .sass .block2 .for_rating .rating {
+  width: 85%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_skills .react {
+  width: 88%;
+  height: 3vh;
+  margin-top: 3px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_skills .react .block1 {
+  width: 32%;
+  height: 3vh;
+}
+.page .part1 .for_skills .react .block2 {
+  width: 70%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_skills .react .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_skills .react .block2 .for_rating .rating {
+  width: 60%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_skills .js {
+  width: 88%;
+  height: 3vh;
+  margin-top: 3px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_skills .js .block1 {
+  width: 32%;
+  height: 3vh;
+}
+.page .part1 .for_skills .js .block2 {
+  width: 70%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_skills .js .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_skills .js .block2 .for_rating .rating {
+  width: 40%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_skills .photoshop {
+  width: 88%;
+  height: 3vh;
+  margin-top: 3px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_skills .photoshop .block1 {
+  width: 32%;
+  height: 3vh;
+}
+.page .part1 .for_skills .photoshop .block2 {
+  width: 70%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_skills .photoshop .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_skills .photoshop .block2 .for_rating .rating {
+  width: 95%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_skills .illustrator {
+  width: 88%;
+  height: 3vh;
+  margin-top: 3px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_skills .illustrator .block1 {
+  width: 32%;
+  height: 3vh;
+}
+.page .part1 .for_skills .illustrator .block2 {
+  width: 70%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_skills .illustrator .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_skills .illustrator .block2 .for_rating .rating {
+  width: 95%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_skills .figma {
+  width: 88%;
+  height: 3vh;
+  margin-top: 3px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_skills .figma .block1 {
+  width: 32%;
+  height: 3vh;
+}
+.page .part1 .for_skills .figma .block2 {
+  width: 70%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_skills .figma .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_skills .figma .block2 .for_rating .rating {
+  width: 95%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_languages {
+  width: 100%;
+  height: 19vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page .part1 .for_languages .languages {
+  width: 88%;
+  height: 4vh;
+  border-bottom: 3px solid white;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_languages .languages .section1 {
+  width: 16%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d2d2d;
+  font-size: 20px;
+}
+.page .part1 .for_languages .languages .section2 {
+  width: 84%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+}
+.page .part1 .for_languages .languages .section2 h1 {
+  font-size: 17px;
+  margin-left: 4%;
+  color: white;
+}
+.page .part1 .for_languages .for_armenian {
+  width: 88%;
+  height: 3vh;
+  margin-top: 8px;
+  display: flex;
+}
+.page .part1 .for_languages .for_armenian p {
+  font-size: 13px;
+}
+.page .part1 .for_languages .for_armenian .block1 {
+  width: 32%;
+  height: 3vh;
+  color: white;
+}
+.page .part1 .for_languages .for_armenian .block2 {
+  width: 68%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_languages .for_armenian .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_languages .for_armenian .block2 .for_rating .rating {
+  width: 100%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_languages .for_english {
+  width: 88%;
+  height: 3vh;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_languages .for_english p {
+  font-size: 13px;
+}
+.page .part1 .for_languages .for_english .block1 {
+  width: 32%;
+  height: 3vh;
+  color: white;
+}
+.page .part1 .for_languages .for_english .block2 {
+  width: 68%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_languages .for_english .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_languages .for_english .block2 .for_rating .rating {
+  width: 75%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part1 .for_languages .for_russian {
+  width: 88%;
+  height: 3vh;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+}
+.page .part1 .for_languages .for_russian p {
+  font-size: 13px;
+}
+.page .part1 .for_languages .for_russian .block1 {
+  width: 32%;
+  height: 3vh;
+  color: white;
+}
+.page .part1 .for_languages .for_russian .block2 {
+  width: 68%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part1 .for_languages .for_russian .block2 .for_rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: white;
+}
+.page .part1 .for_languages .for_russian .block2 .for_rating .rating {
+  width: 90%;
+  height: 1.1vh;
+  background-color: #2d2d2d;
+}
+.page .part2 {
+  width: 65%;
+  height: 100vh;
+  background-color: white;
+}
+.page .part2 .for_dev {
+  width: 100%;
+  height: 26vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page .part2 .for_dev .dev {
+  width: 88%;
+  height: 22vh;
+}
+.page .part2 .for_dev .dev .for_blocks {
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_dev .dev .for_blocks .block1 {
+  width: 9%;
+  height: 4vh;
+  border-bottom: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d2d2d;
+  font-size: 24px;
+}
+.page .part2 .for_dev .dev .for_blocks .block2 {
+  width: 91%;
+  height: 4vh;
+  border-bottom: 3px solid black;
+  padding-left: 12px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.page .part2 .for_dev .dev .for_blocks .block2 h2 {
+  font-size: 18px;
+}
+.page .part2 .for_dev .dev .for_p {
+  width: 100%;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+}
+.page .part2 .for_dev .dev .for_p p {
+  color: gray;
+  font-size: 15.5px;
+  line-height: 1.3;
+}
+.page .part2 .for_work {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part2 .for_work .work {
+  width: 88%;
+  height: 32vh;
+  margin-top: 42px;
+}
+.page .part2 .for_work .work .for_blocks {
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_work .work .for_blocks .block1 {
+  width: 9%;
+  height: 4vh;
+  border-bottom: 3px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d2d2d;
+  font-size: 21px;
+}
+.page .part2 .for_work .work .for_blocks .block2 {
+  width: 91%;
+  height: 4vh;
+  border-bottom: 3px solid black;
+  padding-left: 12px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.page .part2 .for_work .work .for_blocks .block2 h2 {
+  font-size: 18px;
+}
+.page .part2 .for_work .work .for_date {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_work .work .for_date .for__blocks {
+  width: 100%;
+  height: 3vh;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_work .work .for_date .for__blocks .block1 {
+  width: 50%;
+  height: 3vh;
+}
+.page .part2 .for_work .work .for_date .for__blocks .block2 {
+  width: 50%;
+  height: 3vh;
+  text-align: right;
+}
+.page .part2 .for_work .work .for_block3 {
+  width: 100%;
+  height: 3vh;
+  margin-top: 13px;
+}
+.page .part2 .for_work .work .for_block3 .block3 {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+}
+.page .part2 .for_work .work .for_block3 .block3 p {
+  color: rgb(114, 114, 114);
+  font-size: 14px;
+}
+.page .part2 .for_work .work .for_block4 {
+  width: 100%;
+  height: 3vh;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_work .work .for_block4 .block4 {
+  width: 50%;
+  height: 3vh;
+}
+.page .part2 .for_work .work .for_block4 .block5 {
+  width: 50%;
+  height: 3vh;
+  text-align: right;
+}
+.page .part2 .for_work .work .for_block6 {
+  width: 100%;
+  height: 3vh;
+}
+.page .part2 .for_work .work .for_block6 .block6 {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+}
+.page .part2 .for_work .work .for_block6 .block6 p {
+  color: rgb(114, 114, 114);
+  font-size: 14px;
+}
+.page .part2 .for_certificate {
+  width: 100%;
+  height: 31vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .part2 .for_certificate .certificate {
+  width: 88%;
+  height: 32vh;
+  margin-top: 40px;
+}
+.page .part2 .for_certificate .certificate .for_blocks {
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_certificate .certificate .for_blocks .block1 {
+  width: 9%;
+  height: 4vh;
+  border-bottom: 3px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d2d2d;
+  font-size: 21px;
+}
+.page .part2 .for_certificate .certificate .for_blocks .block2 {
+  width: 91%;
+  height: 4vh;
+  border-bottom: 3px solid black;
+  padding-left: 12px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.page .part2 .for_certificate .certificate .for_blocks .block2 h2 {
+  font-size: 18px;
+}
+.page .part2 .for_certificate .for_date {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_certificate .for_date .for__blocks {
+  width: 100%;
+  height: 3vh;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_certificate .for_date .for__blocks .block1 {
+  width: 60%;
+  height: 3vh;
+}
+.page .part2 .for_certificate .for_date .for__blocks .block2 {
+  width: 40%;
+  height: 3vh;
+  text-align: right;
+}
+.page .part2 .for_certificate .for_block3 {
+  width: 100%;
+  height: 3vh;
+  margin-top: 13px;
+}
+.page .part2 .for_certificate .for_block3 .block3 {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+}
+.page .part2 .for_certificate .for_block3 .block3 p {
+  color: rgb(114, 114, 114);
+  font-size: 14px;
+}
+.page .part2 .for_certificate .for__blocks {
+  width: 100%;
+  height: 3vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_certificate .for__blocks .block4 {
+  width: 60%;
+  height: 3vh;
+}
+.page .part2 .for_certificate .for__blocks .block5 {
+  width: 40%;
+  height: 3vh;
+  text-align: right;
+}
+.page .part2 .for_certificate .for_block6 {
+  width: 100%;
+  height: 3vh;
+}
+.page .part2 .for_certificate .for_block6 .block6 {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+}
+.page .part2 .for_certificate .for_block6 .block6 p {
+  color: rgb(114, 114, 114);
+  font-size: 14px;
+}
+.page .part2 .for_certificate .for__blocks {
+  width: 100%;
+  height: 3vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.page .part2 .for_certificate .for__blocks .block7 {
+  width: 60%;
+  height: 3vh;
+}
+.page .part2 .for_certificate .for__blocks .block8 {
+  width: 40%;
+  height: 3vh;
+  text-align: right;
+}
+.page .part2 .for_certificate .for_block9 {
+  width: 100%;
+  height: 3vh;
+}
+.page .part2 .for_certificate .for_block9 .block9 {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+}
+.page .part2 .for_certificate .for_block9 .block9 p {
+  color: rgb(114, 114, 114);
+  font-size: 14px;
+}/*# sourceMappingURL=Pages.css.map */
